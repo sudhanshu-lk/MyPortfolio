@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>  
+    <header class="header">
+        <a href="#home" class="logo">
+            Sudhanshu <span>Kanaujia</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Sudhanshu Kanaujia</span></h1>
+            <h3>
+                I'm a <span>web developer</span>
+            </h3>
+            <p>
+                "I am an ambitious computer science student passionate about translating theoretical knowledge into
+                practical, efficient web solutions.
+                My academic journey has provided a strong foundation in data structures, algorithms, and full-stack
+                technologies.
+                I threive in collaborative environments and am a quick learner, constantly seeking opportunities to
+                expand my skill set and take on new challenges"
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sudhanshu-kanaujia" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="https://www.instagram.com/sudhanshu_lk" target="_blank">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+
+                <a href="https://github.com/sudhanshu-lk" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+<!-- 
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div> -->
+        </div>
+
+        <div class="home-img">
+            <img src="images/myImage2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/face.makeup.beauty.photoeditor_2024422133636329.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p class="typewriter">
+                <span data-text="I am an ambitious computer science student passionate about translating theoretical knowledge into
+                practical, efficient web solutions.
+                My academic journey has provided a strong foundation in data structures, algorithms, and full-stack
+                technologies.
+                I threive in collaborative environments and am a quick learner, constantly seeking opportunities to
+                expand my skill set and take on new challenges."></span>
+            </p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <h4>Frontend Development</h4>
+                <div class="skills-list">
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="CSS"
+                            class="skill-img">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+                            class="skill-img">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="skill-img">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h4>Backend Development</h4>
+                <div class="skills-list">
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="CSS" class="skill-img">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                            alt="Django" class="skill-img">
+                        <h3>Django</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+                            alt="Database" class="skill-img">
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h4>Tools & Others</h4>
+                <div class="skills-list">
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="CSS"
+                            class="skill-img">
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="Django" class="skill-img">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="skill-info">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                            alt="Database" class="skill-img">
+                        <h3>VS Code</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/portfolio.png" alt="Portfolio Project">
+                <h3><strong>Portfolio</strong></h3>
+                <p>Personal portfolio website showcasing my skills and projects.</p>
+                <ul>
+                    <li><strong>Tools:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Code:</strong> Responsive layout, animations, contact form</li>
+                </ul>
+                <a href="https://github.com/yourusername/portfolio" target="_blank" class="btn">See Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/tkinter.png" alt="Tkinter App">
+                <h3><strong>Tkinter App</strong></h3>
+                <p>Desktop GUI application built with Python's Tkinter library.</p>
+                <ul>
+                    <li><strong>Tools:</strong> Python, Tkinter</li>
+                    <li><strong>Code:</strong> Login system, form validation, file handling</li>
+                </ul>
+                <a href="https://github.com/yourusername/tkinter-app" target="_blank" class="btn">See Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/eduzone.png" alt="Learning Website">
+                <h3><strong>Learning Website</strong></h3>
+                <p>Educational platform for online courses and quizzes.</p>
+                <ul>
+                    <li><strong>Tools:</strong> HTML, CSS, Python, Django</li>
+                    <li><strong>Code:</strong> User auth, course modules, quiz system</li>
+                </ul>
+                <a href="https://github.com/yourusername/learning-website" target="_blank" class="btn">See Project</a>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="images/weather.png" alt="Weather App">
+                <h3><strong>Weather App</strong></h3>
+                <p>Real-time weather forecast app using OpenWeatherMap API.</p>
+                <ul>
+                    <li><strong>Tools:</strong> HTML, CSS, JavaScript, API</li>
+                    <li><strong>Code:</strong> Fetch API, dynamic UI, error handling</li>
+                </ul>
+                <a href="https://github.com/yourusername/weather-app" target="_blank" class="btn">See Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="button-container">
+            <a href="mailto:kanaujiasudhanshu7@gmail.com" class="btn gmail-btn">Send Me Email</a>
+            <a href="https://wa.me/916307402019" target="_blank" class="btn whatsapp-btn">Message Me on WhatsApp</a>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sudhanshu-kanaujia" target="_blank">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://www.instagram.com/sudhanshu_lk" target="_blank">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://github.com/sudhanshu-lk" target="_blank">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#skills">Services</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projetcs">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            Sudhanshu Kanaujia | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
