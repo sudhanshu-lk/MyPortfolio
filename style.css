@@ -127,10 +127,38 @@ section{
     font-size: 4rem;
 }
 
-.home-content p{
+/* .home-content p{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
+} */
+
+/* .about-content p {
+    font-size: 1.8rem;
+    border: 2px solid #ea580c;
+    border-radius: 12px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px #ea580c, inset 0 0 5px rgba(255, 123, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.about-content p:hover {
+    box-shadow: 0 0 25px #ea580c;
+    transform: translateY(-5px);
+} */
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in-text{
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .home-img img{
