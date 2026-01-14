@@ -5,6 +5,10 @@ menuIcon.onclick = () => {
     navbar.classList.toggle("active");  
     menuIcon.classList.toggle('bx-x');
 };
+window.onscroll = () => {
+  navbar.classList.remove('active');
+  menuIcon.classList.remove('bx-x')
+};
 
 const span = document.querySelector(".typewriter span");
 const text = span.getAttribute("data-text");
