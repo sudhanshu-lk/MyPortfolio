@@ -1,10 +1,10 @@
-let menuIcon=document.querySelector('#menu-icon');
-let nav=document.querySelector('.nav');
+const menuIcon = document.getElementById("menu-icon");
+const navbar = document.querySelector(".nav");
 
-menuIcon.onclick=()=>{
-    menuIcon.classlist.toggle('bx-x')
-    menuIcon.classlist.toggle('active')
-}
+menuIcon.onclick = () => {
+    navbar.classList.toggle("active");  
+    menuIcon.classList.toggle('bx-x');
+};
 
 const span = document.querySelector(".typewriter span");
 const text = span.getAttribute("data-text");
@@ -19,6 +19,5 @@ function typeEffect() {
 }
 
 typeEffect();
-
 
 
