@@ -89,14 +89,20 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 10rem;
+    text-align: center;
+    min-height: auto;
+    padding: 2rem 15% 5rem;
+    margin-top: 90px;
 }
+
 .home-content{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
 }
+
 .home-content h1{
     font-size: 8rem;
     font-weight: 700;
@@ -128,6 +134,8 @@ span{
     transition: 0.4s ease-in-out;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    width: 30rem;
+    height: 30rem;
 }
 
 
@@ -258,6 +266,8 @@ span{
     color: black;
     text-align: center;
     overflow: hidden;
+    min-height: auto;
+    /* padding: 2rem 15% 5rem; */
 }
 
 .skills h2 {
@@ -364,6 +374,8 @@ span{
     background: var(--second-bg-color);
     text-align: center;
     color: black;
+    min-height: auto;
+    /* padding: 2rem 15% 5rem; */
 }
 
 .projects-box {
@@ -468,6 +480,8 @@ span{
     color: black;
     text-align: center;
     overflow: hidden;
+    min-height: auto;
+    /* padding: 2rem 15% 5rem; */
 }
 
 .certificate h2 {
@@ -664,6 +678,10 @@ section{
 
     .home {
         gap: 6rem;
+        /* flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        padding: 2rem; */
     }
 
     .skills-box,
