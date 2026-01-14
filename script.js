@@ -18,7 +18,7 @@ function typeEffect() {
   if (index < text.length) {
     span.textContent += text.charAt(index);
     index++;
-    setTimeout(typeEffect, 40); // typing speed
+    setTimeout(typeEffect, 30); // typing speed
   }
 }
 

@@ -122,7 +122,7 @@ span{
 
 .fade-in-text{
     opacity: 0;
-    animation: fadeIn 4s forwards;
+    animation: fadeIn 8s forwards;
     color: #ffffff;
     font-weight: bold;
     font-size: 18px;
