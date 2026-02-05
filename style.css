@@ -635,26 +635,6 @@ section{
     text-align: center;
 }
 
-.footer ul{
-    text-align: center;
-    font-size: 1.8rem;
-}
-
-.footer ul li{
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.footer ul li a{
-    color: white;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease-in-out;
-}
-
-.footer ul li a:hover{
-    border-bottom: 3px solid var(--main-color);
-}
-
 .footer .copyright{
     text-align: center;
     margin-top: 20px;
